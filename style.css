@@ -11,6 +11,7 @@
     width: 100%;
     color: #fff;
     position: relative;
+    padding-bottom: 52px;
 }
 
 nav{
@@ -135,6 +136,30 @@ button span{
     display: block;
 }
 
+/* small screens responsiveness */
+@media screen and (max-width: 600px) {
+    .lamp-container {
+      left: 10px;
+      width: 150px;
+    }
+  
+    .text-container {
+      margin-left: 20px;
+    }
+  
+    .text-container h1 {
+      font-size: 40px;
+    }
+  
+    .text-container a {
+      margin-top: 20px;
+    }
+  
+    .control {
+      margin-top: 50px;
+    }
+  }
+  
 .active{
     background: #00986f;
 }
